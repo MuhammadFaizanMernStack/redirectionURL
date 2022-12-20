@@ -1,3 +1,4 @@
+
 chrome.windows.onCreated.addListener(function () {
     console.log("OK")
     // chrome.tabs.create({ url: "https://youtube.com" });
