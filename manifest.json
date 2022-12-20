@@ -1,0 +1,25 @@
+{
+  "name": "Browser redirection Extension",
+  "version": "1.0",
+  "description": "Browser redirection Extension",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "./images/a-16.png",
+      "32": "./images/a-48.png",
+      "48": "./images/a-48.png",
+      "128": "./images/a-128.png"
+    }
+  },
+  "icons": {
+    "16": "./images/a-16.png",
+    "32": "./images/a-48.png",
+    "48": "./images/a-48.png",
+    "128": "./images/a-128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost/website/apis/get.php"]
+}
